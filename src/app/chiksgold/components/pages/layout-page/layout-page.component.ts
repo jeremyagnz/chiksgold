@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./layout-page.component.css']
 })
 export class LayoutPageComponent {
+  mostrarIcono: boolean = false;
+  mostrarIconoUser: boolean = false;
+  mostrarIconoCurrency: boolean = false;
+  mostrarIconoItems: boolean = false;
+  mostrarIconoAccount: boolean = false;
+  mostrarIconoServices: boolean = false;
+  mostrarIconoSwap: boolean = false;
+  mostrarIconoSell: boolean = false;
+
+
 
 }

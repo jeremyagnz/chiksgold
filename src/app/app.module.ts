@@ -17,6 +17,8 @@ import { ChiksgoldModule } from './chiksgold/chiksgold.module';
     HttpClientModule,
     ChiksgoldModule,
 
+
+
     AppRoutingModule,
   ],
   providers: [],
