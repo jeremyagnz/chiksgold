@@ -94,7 +94,9 @@ input:focus-within {
 }
 
 .name-item img {
-  width: 20%;
+  border: 1px solid #33d192;
+  border-radius: 50%;
+  width: 12%;
   height: auto;
 }
 
