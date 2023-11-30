@@ -1,0 +1,43 @@
+.container{
+  width: 100%;
+  border: 3px solid rgb(0, 0, 0);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-container{
+  width: 95%;
+  height: 10%;
+  justify-content: space-between;
+}
+
+
+
+.container-tollbar{
+  width: 40%;
+  height: 100%;
+  border: 1px solid rgb(0, 255, 179);
+}
+
+
+.container-list-cards{
+  width: 40%;
+  height: 100%;
+  border: 1px solid rgb(0, 255, 179);
+}
+
+.card-container{
+  width: 95%;
+  height: 60%;
+  border: 2px solid red;
+
+}
+
+.paginator-contaier{
+  width: 50%;
+  height: 10%;
+  border: 2px solid yellow;
+}

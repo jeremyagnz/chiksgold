@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 
 @Component({
@@ -16,5 +16,12 @@ export class LayoutPageComponent {
   mostrarIconoSwap: boolean = false;
   mostrarIconoSell: boolean = false;
   mostrarIconoUsd: boolean = false;
+
+  isScrolled = false;
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    this.isScrolled = window.scrollY > 50;
+  }
 
 }
