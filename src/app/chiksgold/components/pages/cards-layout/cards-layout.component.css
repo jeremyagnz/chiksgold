@@ -1,4 +1,4 @@
-.container{
+.container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -8,7 +8,14 @@
   background-color: #3e3f53;
   border-radius: 5px;
   border: 1px solid rgb(81, 105, 150);
+  align-content: center;
+}
 
+.card-container {
+  width: 90%;
+  height: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .nav-container{
@@ -17,13 +24,12 @@
   justify-content: space-between;
 }
 
-
-
 .container-tollbar{
   width: 40%;
   height: 100%;
   justify-content: center;
   align-items: center;
+
 }
 
 
@@ -37,17 +43,9 @@
   align-items: center;
 }
 
-.card-container{
-  width: 95%;
-  height: 60%;
-  border: 2px solid red;
-
-}
-
-
 .paginator-contaier{
   width: 50%;
-  height: 10%;
+  height: 6%;
   border: 2px solid yellow;
 }
 
@@ -103,9 +101,8 @@
 }
 
 .dropdown-menu{
-  background-color: #4c608533;
+  border: none;
+  width:100% ;
+  background-color: #3e3f53;
+
 }
-
-
-
-

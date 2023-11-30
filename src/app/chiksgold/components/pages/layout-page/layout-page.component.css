@@ -2,7 +2,7 @@
 .navbar {
   padding: 5px 35px;
   font-size: 12px;
-  overflow-y: auto;  /* Cambiado a 'auto' */
+  overflow-y: scroll;  /* Cambiado a 'auto' */
 }
 
 /* Estilos específicos cuando el navbar está en estado "scrolled" */
@@ -57,4 +57,33 @@ span{
 
 .container{
   height: 100%;
+}
+
+
+
+
+/* Estilo del track del scrollbar (barra principal) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Estilo del handle (el "botón" que puedes arrastrar) */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/* Estilo al pasar el ratón sobre el handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0d6efd;
+}
+
+/* Estilo del track cuando no estás interactuando con el scrollbar */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Estilo del track al pasar el ratón sobre el scrollbar */
+::-webkit-scrollbar-track:hover {
+  background-color: transparent;
 }

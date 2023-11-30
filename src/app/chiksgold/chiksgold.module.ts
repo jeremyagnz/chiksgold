@@ -4,13 +4,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ChiksgoldRoutingModule } from './chiksgold-routing.module';
 import { LayoutPageComponent } from './components/pages/layout-page/layout-page.component';
 import { ListPageComponent } from './components/pages/list-page/list-page.component';
+import { CardsLayoutComponent } from './components/pages/cards-layout/cards-layout.component';
+import { CardsComponent } from './components/pages/shared/cards/cards.component';
 
 
 
 @NgModule({
   declarations: [
     ListPageComponent,
-    LayoutPageComponent
+    LayoutPageComponent,
+    CardsLayoutComponent,
+    CardsComponent
   ],
   imports: [
     CommonModule,
