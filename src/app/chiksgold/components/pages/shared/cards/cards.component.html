@@ -1,11 +1,39 @@
 <div class="my-card">
   <div class="my-card-header">
-    Card Title
+    <div class="card-container">
+      <div class="text d-flex align-items-center">
+        <i class="fa-solid fa-circle"></i><span>ON SALE</span>
+      </div>
+      <div class="state d-flex justify-content-center align-items-center">
+        <span>In stock</span>
+      </div>
+    </div>
+    <div class="input-picker-container">
+      <div class="form-group">
+        <input type="number" class="form-control" id="usr" value="1">
+      </div>
+    </div>
   </div>
+
   <div class="my-card-body">
-    <p>This is some card content. You can add more text, images, or other elements here.</p>
+    <div class="item-container">
+      <div class="img-item">
+        <img src="https://chicks-products.s3.amazonaws.com/e0210f89-d9ae-452f-95dc-9466257d456c" alt="">
+      </div>
+      <div class="name-item text-center d-flex justify-content-between">
+        <span>Blue Partythat</span>
+        <img src="https://chicks-games.s3.amazonaws.com/57ccdb2a-47fe-43f8-9b05-100c15d56508" alt="">
+      </div>
+      <div class="description-item">
+        <span class="price">$450.00</span>
+        <span class="discount">$650.50</span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
   </div>
-  <div class="my-card-footer">
-    Footer Text
+
+  <div class="my-card-footer justify-content-between d-flex">
+    <button class="btn btn-secondary details">DETAILS</button>
+    <button class="btn btn-primary text-center cart">ADD <i class="fa-solid fa-cart-shopping"></i></button>
   </div>
 </div>
