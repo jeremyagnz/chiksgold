@@ -45,6 +45,7 @@ input {
 .input-container {
   position: relative;
   width: 100%;
+  margin-right: 15px;
 }
 
 .dropdown-price button {

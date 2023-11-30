@@ -1,26 +1,24 @@
-
-
+/* Estilos generales del navbar */
 .navbar {
   padding: 5px 35px;
   font-size: 12px;
+  overflow-y: auto;  /* Cambiado a 'auto' */
 }
 
-.navbar {
-  padding: 5px 35px;
-  font-size: 12px;
-}
-
+/* Estilos específicos cuando el navbar está en estado "scrolled" */
 .navbar-scrolled {
   position: fixed;
   top: 0;
   transition: background-color 0.3s ease;
-  background-color: #2c2d3c;
+  background-color: #3e3f53;
   border-bottom: 1px solid rgb(81, 105, 150);
   width: 100%;
   z-index: 1000;
   padding: 5px 35px;
-
+  overflow-y: auto;  /* Cambiado a 'auto' */
 }
+
+
 
 .navbar a {
   color: rgba(255, 255, 255, 0.596);

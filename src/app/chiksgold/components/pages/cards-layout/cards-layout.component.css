@@ -1,16 +1,19 @@
 .container{
   width: 100%;
-  border: 3px solid rgb(0, 0, 0);
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #3e3f53;
+  border-radius: 5px;
+  border: 1px solid rgb(81, 105, 150);
+
 }
 
 .nav-container{
   width: 95%;
-  height: 10%;
+  height: 7%;
   justify-content: space-between;
 }
 
@@ -19,14 +22,19 @@
 .container-tollbar{
   width: 40%;
   height: 100%;
-  border: 1px solid rgb(0, 255, 179);
+  justify-content: center;
+  align-items: center;
 }
 
 
 .container-list-cards{
+  display: flex;
   width: 40%;
   height: 100%;
-  border: 1px solid rgb(0, 255, 179);
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
 }
 
 .card-container{
@@ -36,8 +44,68 @@
 
 }
 
+
 .paginator-contaier{
   width: 50%;
   height: 10%;
   border: 2px solid yellow;
 }
+
+.container-tollbar{
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.container-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-btn span{
+  font-size: 10px;
+}
+
+.inside-btn{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn{
+  width: 180px;
+  background-color: #4c608533;
+  color: rgba(255, 255, 255, 0.596);
+  border: none;
+}
+
+.btn:hover{
+  background-color: #46577733;
+}
+
+.aside i{
+  font-size: 20px;
+  color: #33d192;
+}
+
+.featured{
+  display: flex;
+  justify-content: space-between;
+}
+.featured span{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.fa-caret-down {
+  font-size: 13px;
+}
+
+.dropdown-menu{
+  background-color: #4c608533;
+}
+
+
+
+
