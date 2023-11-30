@@ -43,11 +43,7 @@
   align-items: center;
 }
 
-.paginator-contaier{
-  width: 50%;
-  height: 6%;
-  border: 2px solid yellow;
-}
+
 
 .container-tollbar{
   width: 50%;
@@ -105,4 +101,84 @@
   width:100% ;
   background-color: #3e3f53;
 
+}
+
+.paginator-contaier{
+  width: 50%;
+  height: 6%;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+
+.page-container ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+
+.paginator {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.page-link:hover {
+  background-color: #484f97;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+
+.paginator a{
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: rgba(255, 255, 255, 0.596);
+  font-weight: 100;
+}
+
+.paginator li{
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+
+.paginator li i {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.596);
+
+
+}
+
+.icon{
+  border: 1px solid rgb(81, 105, 150);
+}
+
+
+
+.active .page-link {
+  background-color: #484f97;
+  color: rgba(255, 255, 255, 0.596);
 }
