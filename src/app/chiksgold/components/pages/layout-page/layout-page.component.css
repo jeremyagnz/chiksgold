@@ -1,139 +1,43 @@
-/* app.component.css */
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-}
-
-.container {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(https://chicksgold.com/home/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  font-family: 'Arial', sans-serif;
-}
 
 .navbar {
   background-color: #37384b;
   border-bottom: 1px solid rgba(76, 96, 133, .5);
   padding: 5px 35px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 12px;
 }
 
-.navbar-brand-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo {
-  display: flex;
-  margin-bottom: 5px;
-  justify-content: center;
-}
-
-.vertical-divider {
-  height: 45px;
-  width: 1px;
-  background-color: #ccc;
-  margin-left: 34px;
-}
-
-.navbar-nav {
-  list-style: none;
-  display: flex;
-}
-
-.nav-item {
+.navbar a {
+  color: rgba(255, 255, 255, 0.596);
   margin-right: 15px;
 }
 
-.nav-brand-item a {
-  font-size: 13px;
-  margin-right: 55px;
-  color: rgba(255, 255, 255, 0.726);
-  text-decoration: none;
-  font-weight: 600;
+.navbar a:hover {
+  color: #33d192;
 }
 
-.nav-brand-item a:hover {
-  color: #2bb67e;
+img{
+  margin-bottom: 18px;
 }
 
-.custom-btn-signin,
-.custom-btn-card,
-.custom-btn-usd {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.726);
-  border: none;
-  background-color: transparent;
-  border-radius: 4px;
+
+.navbar-brand-container {
+  display: flex;
+
 }
 
-.custom-btn-signin{
+.btn{
   color: black;
   background-color: #33d192;
+  font-size: 12px;
 }
 
-.custom-btn-signin:hover {
-  background-color: #33d192;
-  border-color: #33d192;
+.btn:hover{
+  background-color: #31ad7c;
 }
 
-.custom-btn:hover {
-  color: #2bb67e;
+span{
+  margin-left: 15px;
+  font-weight: 200;
 }
 
-.custom-btn i.fa-chevron-down {
-  display: inline-block;
-}
-
-.custom-btn:hover i.fa-chevron-up {
-  display: inline-block;
-}
-
-@media (max-width: 768px) {
-  .navbar-nav {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #f8f9fa;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .navbar-toggler {
-    display: block;
-  }
-
-  .navbar-toggler-icon {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: #007bff;
-  }
-
-  .navbar-toggler.active + .navbar-nav {
-    display: flex;
-  }
-
-  .nav-item {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}

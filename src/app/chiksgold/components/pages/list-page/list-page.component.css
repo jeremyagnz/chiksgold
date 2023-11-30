@@ -1,0 +1,117 @@
+/* app.component.css */
+
+.container {
+  margin-top: 80px;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.dropdown button {
+  height: 50px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #4c608533;
+  border: transparent;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.712);
+  font-weight: 600;
+}
+
+.btn i {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.fa-caret-down {
+  padding-left: 45px;
+}
+
+.fa-caret-up {
+  padding-right: 45px;
+}
+
+input {
+  background-color: #4c608533;
+  border: transparent;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-price button {
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 13px;
+  width: 100%;
+  height: 50px;
+}
+
+.dropdown-price button i {
+  margin-right: 10px;
+}
+
+.margn {
+  border-right: 2px solid rgb(86, 115, 170);
+}
+
+.fa-search {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #555;
+}
+
+.search-input {
+  width: 100%;
+  height: 50px;
+  padding: 8px 30px;
+  font-size: 13px;
+  outline: none;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.input-container i {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.color {
+  color: #33d192;
+}
+
+/* Consultas de medios */
+@media (min-width: 576px) {
+  .input-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .input-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .input-container {
+    width: 65%;
+  }
+}
