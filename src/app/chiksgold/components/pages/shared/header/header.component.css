@@ -1,0 +1,89 @@
+/* Estilos generales del navbar */
+.navbar {
+  padding: 5px 35px;
+  font-size: 12px;
+  overflow-y: scroll;  /* Cambiado a 'auto' */
+}
+
+/* Estilos específicos cuando el navbar está en estado "scrolled" */
+.navbar-scrolled {
+  position: fixed;
+  top: 0;
+  transition: background-color 0.3s ease;
+  background-color: #3e3f53;
+  border-bottom: 1px solid rgb(81, 105, 150);
+  width: 100%;
+  z-index: 1000;
+  padding: 5px 35px;
+  overflow-y: auto;  /* Cambiado a 'auto' */
+}
+
+
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.596);
+  margin-right: 15px;
+}
+
+.navbar a:hover {
+  color: #33d192;
+}
+
+img{
+  margin-bottom: 18px;
+}
+
+
+.navbar-brand-container {
+  display: flex;
+
+}
+
+.btn{
+  color: black;
+  background-color: #33d192;
+  font-size: 12px;
+}
+
+.btn:hover{
+  background-color: #31ad7c;
+}
+
+span{
+  margin-left: 15px;
+  font-weight: 200;
+}
+
+
+.container{
+  height: 100%;
+}
+
+
+
+
+/* Estilo del track del scrollbar (barra principal) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Estilo del handle (el "botón" que puedes arrastrar) */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/* Estilo al pasar el ratón sobre el handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0d6efd;
+}
+
+/* Estilo del track cuando no estás interactuando con el scrollbar */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Estilo del track al pasar el ratón sobre el scrollbar */
+::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}

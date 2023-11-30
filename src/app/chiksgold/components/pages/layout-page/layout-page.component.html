@@ -1,68 +1,9 @@
+<!-- app.component.html -->
 
-<nav class="navbar navbar-expand-lg justify-content-between" [ngClass]="{'navbar-scrolled': isScrolled}">
-    <div class="container-fluid col-12 p-sm:col-2 md:col-8 xl:col-8">
-      <a class="navbar-brand" href="#">
-        <img src="https://chicksgold.com/logo/chicks-logo-large.svg" alt="Logo">
-        <span> |</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav primary me-auto mb-2 mb-lg-0">
-          <li class="nav-item" (mouseover)="mostrarIconoCurrency = true" (mouseout)="mostrarIconoCurrency = false">
-            <a class="nav-link active" href="#">CURRENCY
-              <i *ngIf="!mostrarIconoCurrency" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoCurrency" class="fas fa-chevron-up"></i>
-            </a>
-          </li>
-          <li class="nav-item" (mouseover)="mostrarIconoItems = true" (mouseout)="mostrarIconoItems = false">
-            <a class="nav-link active" href="#">
-              ITEMS
-              <i *ngIf="!mostrarIconoItems" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoItems" class="fas fa-chevron-up"></i>
-            </a>
-          </li>
-          <li class="nav-item" (mouseover)="mostrarIconoAccount = true" (mouseout)="mostrarIconoAccount = false">
-            <a class="nav-link active" href="#">
-              ACCOUNTS
-              <i *ngIf="!mostrarIconoAccount" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoAccount" class="fas fa-chevron-up"></i>
-            </a>
-          </li>
-          <li class="nav-item" (mouseover)="mostrarIconoServices = true" (mouseout)="mostrarIconoServices = false">
-            <a class="nav-link active" href="#">SERVICES  <i *ngIf="!mostrarIconoServices" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoServices" class="fas fa-chevron-up"></i></a>
-          </li>
-          <li class="nav-item" (mouseover)="mostrarIconoSwap = true" (mouseout)="mostrarIconoSwap = false">
-            <a class="nav-link active" href="#">SWAP
-              <i *ngIf="!mostrarIconoSwap" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoSwap" class="fas fa-chevron-up"></i>
-            </a>
-          </li>
-          <li class="nav-item" (mouseover)="mostrarIconoSell = true" (mouseout)="mostrarIconoSell = false">
-            <a class="nav-link active" href="#">SELL  <i *ngIf="!mostrarIconoSell" class="fas fa-chevron-down"></i>
-              <i *ngIf="mostrarIconoSell" class="fas fa-chevron-up"></i></a>
-          </li>
-        </ul>
-        <form class="d-lg-flex d-block form align-items-center">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item" (mouseover)="mostrarIconoUsd = true" (mouseout)="mostrarIconoUsd = false">
-              <a class="nav-link active" aria-current="page" href="#">USD  <i *ngIf="!mostrarIconoUsd" class="fas fa-chevron-down"></i>
-                <i *ngIf="mostrarIconoUsd" class="fas fa-chevron-up"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-cart-shopping"></i> CART (5)</a>
-            </li>
-          </ul>
-          <button class="btn text-center align-items-center" >SIGN IN <i class="fas fa-user"></i></button>
-        </form>
-      </div>
-    </div>
-  </nav>
+<app-header></app-header>
 
-
-
-<div class="container">
+<div class="main-content">
   <router-outlet></router-outlet>
 </div>
+
+<app-footer></app-footer>

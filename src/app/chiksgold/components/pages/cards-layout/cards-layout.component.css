@@ -9,6 +9,8 @@
   border-radius: 5px;
   border: 1px solid rgb(81, 105, 150);
   align-content: center;
+  padding: 50px;
+  margin-bottom: 60px;
 }
 
 .card-container {
@@ -16,11 +18,13 @@
   height: 70%;
   overflow-y: auto;
   overflow-x: hidden;
+
 }
 
 .nav-container{
-  width: 95%;
+  width: 90%;
   height: 7%;
+  margin-bottom: 25px;
   justify-content: space-between;
 }
 

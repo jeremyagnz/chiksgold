@@ -6,6 +6,8 @@ import { LayoutPageComponent } from './components/pages/layout-page/layout-page.
 import { ListPageComponent } from './components/pages/list-page/list-page.component';
 import { CardsLayoutComponent } from './components/pages/cards-layout/cards-layout.component';
 import { CardsComponent } from './components/pages/shared/cards/cards.component';
+import { FooterComponent } from './components/pages/shared/footer/footer.component';
+import { HeaderComponent } from './components/pages/shared/header/header.component';
 
 
 
@@ -14,7 +16,9 @@ import { CardsComponent } from './components/pages/shared/cards/cards.component'
     ListPageComponent,
     LayoutPageComponent,
     CardsLayoutComponent,
-    CardsComponent
+    CardsComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,

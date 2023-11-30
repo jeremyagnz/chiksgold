@@ -21,7 +21,6 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 50%;
   height: 100%;
   justify-content: space-around;
@@ -53,8 +52,8 @@
 
 .input-picker-container {
   display: flex;
-  width: 40%;
-  height: 70%;
+  width: 30%;
+  height: 80%;
   align-items: center;
   background-color: #4c608533;
   border-radius: 5px;
