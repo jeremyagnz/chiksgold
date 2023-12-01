@@ -1,4 +1,4 @@
-/* app.component.css */
+
 
 .container {
   margin-top: 80px;
@@ -93,7 +93,7 @@ input {
   color: #33d192;
 }
 
-/* Consultas de medios */
+
 @media (min-width: 576px) {
   .input-container {
     width: 80%;

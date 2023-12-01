@@ -1,11 +1,10 @@
-/* Estilos generales del navbar */
+
 .navbar {
   padding: 5px 35px;
   font-size: 12px;
-  overflow-y: scroll;  /* Cambiado a 'auto' */
+  overflow-y: scroll;
 }
 
-/* Estilos específicos cuando el navbar está en estado "scrolled" */
 .navbar-scrolled {
   position: fixed;
   top: 0;
@@ -15,9 +14,8 @@
   width: 100%;
   z-index: 1000;
   padding: 5px 35px;
-  overflow-y: auto;  /* Cambiado a 'auto' */
+  overflow-y: auto;
 }
-
 
 
 .navbar a {
