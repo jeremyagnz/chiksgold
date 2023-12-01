@@ -1,10 +1,8 @@
-<!-- app.component.html -->
-
 <div class="container">
   <h1>Condimentum consectetur</h1>
 
   <nav class="navbar navbar-expand-lg">
-    <div class="container-toolbar d-flex">
+    <div class="container-toolbar d-flex mb5">
       <div class="dropdown">
         <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
           <div class="inside-btn">
@@ -12,7 +10,7 @@
               <i class="fa-solid fa-gavel"></i>
             </div>
             <div class="container-btn d-flex featured">
-              <span> Featured </span>
+              <span>Select a game</span>
             </div>
             <i class="fa-solid fa-caret-down"></i>
           </div>
@@ -25,31 +23,52 @@
       </div>
     </div>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-collapse" id="navbarSupportedContent">
       <div class="input-container">
         <i class="fas fa-search fa-lg"></i>
         <input type="text" class="search-input" placeholder="Search">
       </div>
 
-      <div class="dropdown-price margn">
-        <button class="btn price" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fa-solid fa-sack-dollar"></i> All <i class="fas fa-caret-down"></i>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-
-      <div class="dropdown-price">
-        <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fa-solid fa-feather"></i> All <i class="fas fa-caret-down"></i>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+      <div class="container-tollbar-price d-flex">
+        <div class="content d-flex">
+          <div class="dropdown dropdown-toll">
+            <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="inside-btn">
+                <div class="aside-price mt-2">
+                  <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <div class="container-btn-price d-flex">
+                  <div><span>Short by</span></div>
+                  <div class="price-all"><span>ALL</span></div>
+                </div>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-fill"></i> Edit</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-trash-fill"></i> Delete</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-eye-fill"></i> View</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="inside-btn">
+                <div class="aside-price mt-2">
+                  <i class="fa-solid fa-feather"></i>
+                </div>
+                <div class="container-btn-price d-flex">
+                  <div><span>Item Type</span></div>
+                  <div class="price-all"><span>ALL</span></div>
+                </div>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-fill"></i> Edit</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-trash-fill"></i> Delete</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-eye-fill"></i> View</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
