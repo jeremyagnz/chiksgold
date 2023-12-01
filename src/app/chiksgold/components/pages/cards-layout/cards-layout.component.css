@@ -185,3 +185,42 @@
   background-color: #484f97;
   color: rgba(255, 255, 255, 0.596);
 }
+
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .container-list-cards{
+    justify-content: center;
+  }
+  .container-list-cards, .container-tollbar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .container-tollbar {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-btn {
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%; /* Ajusta según tus necesidades */
+  }
+
+
+  .featured{
+    padding: 0px 10px;
+  }
+
+}
