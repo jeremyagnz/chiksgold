@@ -104,12 +104,13 @@ ol {
 @media only screen and (max-width: 768px) {
   .payments {
     width: 100%;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
   .payments img {
     margin-right: 10px;
+    width: 80px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: 24px; /* Ajusta la altura de las imágenes según tus necesidades */
   }
 
   .details {
@@ -125,19 +126,17 @@ ol {
   }
 
   .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid rgb(81, 105, 150);
-    padding-bottom: 20px;
+    padding-bottom: 10px; /* Ajusta el espacio entre las redes sociales y la información */
   }
 
   .socials img {
-    margin-right: 15px;
+    margin-right: 10px;
+    width: 25px; /* Ajusta el ancho de las imágenes de redes sociales según tus necesidades */
+    height: 25px; /* Ajusta la altura de las imágenes de redes sociales según tus necesidades */
   }
 
   .chiksimg img {
-    max-width: 70%;
+    max-width: 70%; /* Ajusta el ancho máximo de la imagen del logo según tus necesidades */
   }
 
   .chiksimg span {
