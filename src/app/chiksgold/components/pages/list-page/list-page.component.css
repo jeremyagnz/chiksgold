@@ -1,5 +1,4 @@
 
-
 .container {
   margin-top: 80px;
   height: 100%;
@@ -9,12 +8,43 @@ h1 {
   color: rgba(255, 255, 255, 0.712);
 }
 
-.dropdown button {
-  height: 50px;
+.container-toolbar {
+  width: 30%;
+  height: 100%;
+  align-items: center;
+}
+
+.inside-btn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.aside i {
+  font-size: 15px;
+  color: #33d192;
+  margin-right: 10px;
 }
 
 .dropdown {
-  margin-right: 20px;
+  width: 80%;
+}
+
+.dropdown-menu {
+  border: none;
+  width: 100%;
+  background-color: #3e3f53;
 }
 
 .btn {
@@ -92,7 +122,6 @@ input {
 .color {
   color: #33d192;
 }
-
 
 @media (min-width: 576px) {
   .input-container {
