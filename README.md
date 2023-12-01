@@ -1,27 +1,13 @@
 # Chiksgold
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+**Project Information:**
 
-## Development server
+This project is built using Angular version 15.2.9 and Node version 18.18.2.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Getting Started:**
 
-## Code scaffolding
+If you wish to clone the project, simply run `npm install` in the console, and you're good to go. The project is currently deployed on GitHub Pages, so you have the option to download it at your convenience.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Design Choices:**
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+In an attempt to prioritize simplicity, the project primarily relies on pure HTML and CSS for design. However, for enhanced functionality and streamlined responsiveness, Angular Material with PrimeFlex could have been utilized. This approach would have allowed for a more efficient and concise codebase.
